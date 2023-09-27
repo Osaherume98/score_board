@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <title>Scoreboared</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="home">
+        <h1>HOME</h1>
+        <button id="home-btn">0</button>
+        <div class="operate">
+          <button id="btn-one" onclick="plusone()">+1</button>
+          <button id="btn-two" onclick="plustwo()">+2</button>
+          <button id="btn-three" onclick="plusthree()">+3</button>
+        </div>
+      </div>
+
+      <div class="guest">
+        <h1>GUEST</h1>
+        <button id="guest-btn">0</button>
+        <div class="operate">
+          <button id="btn-one" onclick="guestPlusone()">+1</button>
+          <button id="btn-two" onclick="guestPlustwo()">+2</button>
+          <button id="btn-three" onclick="guestPlusthree()">+3</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-2">
+      <button class="save-btn" onclick="saveClick()">SAVE</button>
+      <p id="home-count" onclick="homeCount">Home Count:</p>
+      <p id="guest-count" onclick="guestCount">Guest Count:</p>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
